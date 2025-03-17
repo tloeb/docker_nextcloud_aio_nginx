@@ -29,8 +29,6 @@ jinja2 nginx.conf.j2 config.yaml > nginx.conf
 ## Quickstart
 
 ```bash
-
-'''bash
 # Optional retrieve a certificate
 sudo certbot certonly --nginx
 
@@ -39,7 +37,6 @@ sudo certbot certonly --nginx
 
 docker-compose up -d
 ```
-
 
 # Overwrite the existing config
 
